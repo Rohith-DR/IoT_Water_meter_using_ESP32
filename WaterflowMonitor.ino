@@ -4,10 +4,10 @@
 
 #define UPDATE_INTERVAL 2000 // Interval for posting to ThingSpeak in milliseconds
 
-const char * myWriteAPIKey = "FR6CZ3WGVLR8ALTE";
-String apiKey = "FR6CZ3WGVLR8ALTE"; // Enter your Write API key from ThingSpeak
-const char *ssid = "vivo Y33T";     // replace with your wifi ssid and wpa2 key
-const char *pass = "";
+const char * myWriteAPIKey = "enter_your_API_key";
+String apiKey = "enter_your_API_key"; // Enter your Write API key from ThingSpeak
+const char *ssid = "enter_your_ssid";     // replace with your wifi ssid and wpa2 key
+const char *pass = "enter_your_password";
 const char* server = "api.thingspeak.com";
 
 #define LED_BUILTIN 2 // Use GPIO 2 for LED on ESP32
